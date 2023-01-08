@@ -5,6 +5,7 @@ import React, { useEffect, useState } from 'react';
 
 export function BNW() {
   const imgs = ["000011530004.jpg", "000011530016.jpg", "000011530028.jpg", "000011530029.jpg", "000011540004.jpg", "000011540009.jpg", "000011540010.jpg", "000011540036.jpg", "000015880012.jpg", "000023670020.jpg", "000023670033.jpg", "000023670039.jpg", "000034690001.jpg", "000034690019.jpg", "000034700001.jpg", "000034700008.jpg", "000034700024.jpg", "000034700032.jpg"];
+
   useEffect(() => {
     document.title = 'szean';
 
