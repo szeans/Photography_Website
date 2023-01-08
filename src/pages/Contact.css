@@ -1,10 +1,8 @@
-#body {
-  padding-left: 220px;
-  padding-top: 40px;
+p {
+  margin: 5px;
 }
 
-#profile {
-  width: 280px;
-  float: left;
-  padding-right: 30px;
+#body a {
+  display: inline;
+  color:rgb(125, 125, 125);
 }

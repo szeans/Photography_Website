@@ -14,15 +14,14 @@ export function Contact() {
     <div id = "body">
     <img id = "profile" src = {pp} alt = "profile photo" />
       <p>Yeonseung "Sean" Choi</p>
+      <br/>
       <p>Full time student pursuing a Bachelor of Science in Computer Science at Purdue University.</p>
       <br />
-      <p>
-        e: ysc@purdue.edu <br />
-        ig: @szeans  <br />
-        github: @szean  <br />
-        linkedin: @szean  <br />
-        soundcloud @szean  <br />
-      </p>
+      <p>email: <a href="mailto:ysc@purdue.edu" target="_blank">ysc@purdue.edu</a></p>
+      <p>instagram: <a href="https://www.instagram.com/szeans/" target="_blank">@szeans</a> </p>
+      <p>github: <a href="https://github.com/szeans" target="_blank">@szeans</a> </p>
+      <p>linkedin: <a href="https://www.linkedin.com/in/szean/" target="_blank">@szean</a> </p>
+      <p>soundcloud: <a href="https://www.soundcloud.com/szean/" target="_blank">@szean</a> </p>
     </div>
     </div>
   );
