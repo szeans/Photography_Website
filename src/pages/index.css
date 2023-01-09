@@ -5,6 +5,7 @@
 
 @media only screen and (min-width: 1000px) {
   .nav {
+    margin-left: 60px;
     width: 130px;
     height: 100%;
     position: fixed;
@@ -13,7 +14,6 @@
 }
 
 .nav {
-  margin-left: 60px;
   margin-top: 40px;
   padding-right: 0px;
   border-right: 0px;
@@ -28,6 +28,7 @@
 
 @media only screen and (max-width: 999px) {
   .nav {
+    margin-left: 45px;
     position: relative;
     width: 89%;
     padding-bottom: 30px;

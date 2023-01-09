@@ -39,9 +39,14 @@
 
   #profile {
     height: 100%;
-    padding-left: 7%;
-    width: 40%;
+    padding: 0% 22% 10% 22%;
+    width: 55%;
     float: left;
     padding-right: 30px;
+  }
+  
+  p {
+    width: 70%;
+    padding-left: 10%;
   }
 }
