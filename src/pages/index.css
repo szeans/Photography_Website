@@ -3,14 +3,20 @@
   font-size: larger;
 }
 
+@media only screen and (min-width: 1000px) {
+  .nav {
+    width: 130px;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+  }
+}
+
 .nav {
   margin-left: 60px;
   margin-top: 40px;
   padding-right: 0px;
   border-right: 0px;
-  width: 130px;
-  height: 100%;
-  position: fixed;
   overflow: auto;
 
   color: black;
@@ -18,6 +24,15 @@
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
+}
+
+@media only screen and (max-width: 999px) {
+  .nav {
+    position: relative;
+    width: 89%;
+    padding-bottom: 30px;
+    overflow: auto;
+  }
 }
 
 .links, a, #name, .linkss {
