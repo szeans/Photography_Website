@@ -1,6 +1,6 @@
 import './Contact.css';
 import {Index} from './index';
-import pp from "../../photos/profile_photo.jpg";
+import pp from "/photos/profile_photo.jpg";
 import React, { useEffect } from 'react';
 
 export function Contact() {

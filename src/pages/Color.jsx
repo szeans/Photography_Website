@@ -41,7 +41,7 @@ export function Color() {
             imgs.map(s =>
               <div class="gallery-item">
                 <div class="content">
-                  <img src={"../../photos/color/" + s} />
+                  <img src={"/photos/color/" + s} />
                 </div>
               </div>
             )

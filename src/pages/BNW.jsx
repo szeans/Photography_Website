@@ -43,7 +43,7 @@ export function BNW() {
             imgs.map(s =>
               <div class="gallery-item">
                 <div class="content">
-                  <img src={"../../photos/bnw/" + s} />
+                  <img src={"/photos/bnw/" + s} />
                 </div>
               </div>
             )
