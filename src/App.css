@@ -38,6 +38,7 @@
   }
 
   #profile {
+    height: 100%;
     padding-left: 7%;
     width: 40%;
     float: left;
