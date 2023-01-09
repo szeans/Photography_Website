@@ -22,6 +22,8 @@ export function Contact() {
       <p>github: <a href="https://github.com/szeans" target="_blank">@szeans</a> </p>
       <p>linkedin: <a href="https://www.linkedin.com/in/szean/" target="_blank">@szean</a> </p>
     </div>
+    <br />
+    <br />
     </div>
   );
 }
