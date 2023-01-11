@@ -19,9 +19,15 @@ import o from '/bnw/000034700001.jpg';
 import p from '/bnw/000034700008.jpg';
 import q from '/bnw/000034700024.jpg';
 import r from '/bnw/000034700032.jpg';
+import s from '/bnw/000023670037.jpg';
+import t from '/bnw/000011530010.jpg';
+import u from '/bnw/000011530002.jpg';
+import v from '/bnw/000011530011.jpg';
+import w from '/bnw/000011530015.jpg';
+import x from '/bnw/000011530021.jpg';
 
 export function BNW() {
-  const imgs = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r];
+  const imgs = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x];
 
   useEffect(() => {
     document.title = 'szean';

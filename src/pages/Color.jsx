@@ -24,9 +24,11 @@ import t from '/color/001249710021.jpg';
 import u from '/color/0014.jpg';
 import v from '/color/0024.jpg';
 import w from '/color/0031.jpg';
+import x from '/color/000014840023.jpg'
+import y from '/color/000014830013.jpg'
 
 export function Color() {
-  const imgs = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w];
+  const imgs = [a, d, e, f, g, h, y, i, j, k, b, l, m, n, o, p, q, r, c, s, t, u, v, w, x];
   useEffect(() => {
     document.title = 'szean: color';
 
