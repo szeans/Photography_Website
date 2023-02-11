@@ -9,7 +9,7 @@ import {Contact} from './pages/Contact';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <BNW />,
+    element: <Color />,
   },
   {
     path: "/bnw",

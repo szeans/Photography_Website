@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import a from '/color/000010810006.jpg';
 import b from '/color/000010810012.jpg';
 import c from '/color/000010810017.jpg';
-import d from '/color/000012030014.jpg';
+import d from '/color/plants_greenhouse_1.jpg';
 import e from '/color/000023650020.jpg';
 import f from '/color/000023650023.jpg';
 import g from '/color/000023650034.jpg';
@@ -24,11 +24,12 @@ import t from '/color/001249710021.jpg';
 import u from '/color/0014.jpg';
 import v from '/color/0024.jpg';
 import w from '/color/0031.jpg';
-import x from '/color/000014840023.jpg'
-import y from '/color/000014830013.jpg'
+import x from '/color/000014830013.jpg';
+import y from '/color/stop_snowy_1.jpg';
+import z from '/color/armstrong_sun_1.jpg';
 
 export function Color() {
-  const imgs = [a, d, e, f, g, h, y, i, j, k, b, l, m, n, o, p, q, r, c, s, t, u, v, w, x];
+  const imgs = [a, d, e, q, g, y, h, x, z, i, j, k, f, b, l, m, n, o, p, r, c, s, t, u, v, w];
   useEffect(() => {
     document.title = 'szean: color';
 
