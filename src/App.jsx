@@ -1,10 +1,10 @@
-import {RouterProvider, createBrowserRouter} from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import './App.css';
-import {Index} from './pages';
-import {BNW} from './pages/BNW';
-import {Color} from './pages/Color';
-import {Contact} from './pages/Contact';
+import { BNW } from './pages/BNW';
+import { Color } from './pages/Color';
+import { Contact } from './pages/Contact';
+import ScrollButton from "./components/ScrollButton";
 
 const router = createBrowserRouter([
   {
@@ -26,7 +26,12 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return <RouterProvider router={router}></RouterProvider>;
+  return (
+    <div>
+      <RouterProvider router={router}></RouterProvider>
+      <ScrollButton />
+    </div>
+  );
 }
 
 export default App;

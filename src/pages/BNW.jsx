@@ -61,11 +61,11 @@ export function BNW() {
     <div>
       <Index />
       <div id="body">
-        <div class="gallery" id="gallery">
+        <div className="gallery" id="gallery">
           {
-            imgs.map(s =>
-              <div class="gallery-item">
-                <div class="content">
+            imgs.map((s, index) =>
+              <div className="gallery-item" key={index}>
+                <div className="content">
                   <img src={s} />
                 </div>
               </div>

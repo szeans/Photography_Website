@@ -29,11 +29,11 @@ import y from '/color/stop_snowy_1.jpg';
 import z from '/color/armstrong_sun_1.jpg';
 
 export function Color() {
-  const imgs = [a, d, e, q, g, y, h, x, z, i, j, k, f, b, l, m, n, o, p, r, c, s, t, u, v, w];
+  const imgs = [z, q, d, e, g, y, h, x, i, j, k, f, b, l, m, n, a, o, p, r, c, s, t, u, v, w];
   useEffect(() => {
     document.title = 'szean: color';
 
-    var gallery = document.querySelector('#gallery');
+    var gallery = document.querySelector('.gallery');
 
     var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; };
 
@@ -47,12 +47,12 @@ export function Color() {
     };
 
     gallery.querySelectorAll('img').forEach(function (item) {
-    item.addEventListener('load', function () {
-      var altura = 0;
-      var gap = 15;
-      var gitem = item.parentElement.parentElement;
-      gitem.style.gridRowEnd = "span " + Math.ceil((getHeight(gitem) + gap) / (altura + gap));
-    });
+      item.addEventListener('load', function () {
+        var altura = 0;
+        var gap = 15;
+        var gitem = item.parentElement.parentElement;
+        gitem.style.gridRowEnd = "span " + Math.ceil((getHeight(gitem) + gap) / (altura + gap));
+      });
     });
 
     window.addEventListener('resize', resizeAll);
@@ -62,11 +62,11 @@ export function Color() {
     <div>
       <Index />
       <div id="body">
-        <div class="gallery" id="gallery">
+        <div className="gallery" id="gallery">
           {
-            imgs.map(s =>
-              <div class="gallery-item">
-                <div class="content">
+            imgs.map((s, index) =>
+              <div className="gallery-item" key={index}>
+                <div className="content">
                   <img src={s} />
                 </div>
               </div>

@@ -7,7 +7,7 @@ export function Index() {
 
       {/* Navbar */}
 
-      <span onselectstart="return false" id="name">
+      <span id="name">
         <Link to='/' className="name">szean choi</Link>
       </span>
 
@@ -21,6 +21,7 @@ export function Index() {
         <br /><br />
         <span id="extras">
           <NavLink to='/contact' className="linkss">contact</NavLink>
+          <a href="https://dev.szeanchoi.com" target="_blank" className="linkss">development</a>
           <a href="https://mega.nz/folder/rt0k0ZzC#10vGO_SSVE_y0JWA4Ygxwg" target="_blank" className="linkss">archive</a>
         </span>
       </span>
