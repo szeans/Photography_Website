@@ -30,9 +30,9 @@ export function BNW() {
   const imgs = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x];
 
   useEffect(() => {
-    document.title = 'szean';
+    document.title = 'szean: bnw';
 
-    var gallery = document.querySelector('#gallery');
+    var gallery = document.querySelector('.gallery');
 
     var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; };
 
@@ -46,13 +46,17 @@ export function BNW() {
     };
 
     gallery.querySelectorAll('img').forEach(function (item) {
-    item.addEventListener('load', function () {
-      var altura = 0;
-      var gap = 15;
-      var gitem = item.parentElement.parentElement;
-      gitem.style.gridRowEnd = "span " + Math.ceil((getHeight(gitem) + gap) / (altura + gap));
+      item.addEventListener('load', function () {
+        var altura = 0;
+        var gap = 15;
+        var gitem = item.parentElement.parentElement;
+        gitem.style.gridRowEnd = "span " + Math.ceil((getHeight(gitem) + gap) / (altura + gap));
+      });
     });
-    });
+
+    if (document.readyState === 'complete') {
+      resizeAll();
+    }
 
     window.addEventListener('resize', resizeAll);
   }, []);
@@ -61,7 +65,7 @@ export function BNW() {
     <div>
       <Index />
       <div id="body">
-        <div className="gallery" id="gallery">
+        <div className="gallery">
           {
             imgs.map((s, index) =>
               <div className="gallery-item" key={index}>

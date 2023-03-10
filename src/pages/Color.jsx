@@ -30,6 +30,7 @@ import z from '/color/armstrong_sun_1.jpg';
 
 export function Color() {
   const imgs = [z, q, d, e, g, y, h, x, i, j, k, f, b, l, m, n, a, o, p, r, c, s, t, u, v, w];
+
   useEffect(() => {
     document.title = 'szean: color';
 
@@ -55,6 +56,10 @@ export function Color() {
       });
     });
 
+    if (document.readyState === 'complete') {
+      resizeAll();
+    }
+
     window.addEventListener('resize', resizeAll);
   }, []);
 
@@ -62,7 +67,7 @@ export function Color() {
     <div>
       <Index />
       <div id="body">
-        <div className="gallery" id="gallery">
+        <div className="gallery">
           {
             imgs.map((s, index) =>
               <div className="gallery-item" key={index}>
