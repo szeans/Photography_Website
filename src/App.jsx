@@ -4,7 +4,6 @@ import './App.css';
 import { BNW } from './pages/BNW';
 import { Color } from './pages/Color';
 import { Contact } from './pages/Contact';
-import ScrollButton from "./components/ScrollButton";
 
 const router = createBrowserRouter([
   {
@@ -29,7 +28,6 @@ function App() {
   return (
     <div>
       <RouterProvider router={router}></RouterProvider>
-      <ScrollButton />
     </div>
   );
 }

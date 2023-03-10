@@ -1,6 +1,8 @@
 import './Color.css';
 import { Index } from './index';
 import React, { useEffect, useState } from 'react';
+
+import ScrollButton from "../components/ScrollButton";
 import a from '/color/000010810006.jpg';
 import b from '/color/000010810012.jpg';
 import c from '/color/000010810017.jpg';
@@ -18,7 +20,6 @@ import n from '/color/0004.jpg';
 import o from '/color/000496160010.jpg';
 import p from '/color/000497650015.jpg';
 import q from '/color/000497650027.jpg';
-import r from '/color/001249710006.jpg';
 import s from '/color/001249710013.jpg';
 import t from '/color/001249710021.jpg';
 import u from '/color/0014.jpg';
@@ -29,7 +30,7 @@ import y from '/color/stop_snowy_1.jpg';
 import z from '/color/armstrong_sun_1.jpg';
 
 export function Color() {
-  const imgs = [z, q, d, e, g, y, h, x, i, j, k, f, b, l, m, n, a, o, p, r, c, s, t, u, v, w];
+  const imgs = [z, q, d, e, g, p, h, x, i, j, k, f, b, l, m, n, a, o, c, s, t, u, v, w];
 
   useEffect(() => {
     document.title = 'szean: color';
@@ -79,6 +80,7 @@ export function Color() {
           }
         </div>
       </div>
+      <ScrollButton />
     </div>
   );
 }

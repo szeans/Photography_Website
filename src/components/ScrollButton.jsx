@@ -4,26 +4,17 @@ import { Button } from './Styles';
 
 const ScrollButton = () => {
 
-  const [visible, setVisible] = useState(false)
+  const [visible, setVisible] = useState(true)
 
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;
-    if ("ontouchstart" in document.documentElement) {
-      if (scrolled > 200) {
-        setVisible(true)
-      }
-      else if (scrolled <= 200) {
-        setVisible(false)
-      }
-    } else {
-      if (scrolled > 1000) {
-        setVisible(true)
-      }
-      else if (scrolled <= 1000) {
-        setVisible(false)
-      }
+    if (scrolled > 400) {
+      setVisible(true)
     }
-  };
+    else if (scrolled <= 400) {
+      setVisible(false)
+    }
+  }
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -39,7 +30,7 @@ const ScrollButton = () => {
   return (
     <Button>
       <CiCircleChevUp onClick={scrollToTop}
-        style={{ display: visible ? 'inline' : 'none' }} />
+        style={{ display: visible ? 'block' : 'none' }} />
     </Button>
   );
 }

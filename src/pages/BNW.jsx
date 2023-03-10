@@ -1,6 +1,7 @@
 import './BNW.css';
 import { Index } from './index';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
+import ScrollButton from "../components/ScrollButton";
 import a from '/bnw/000011530004.jpg';
 import b from '/bnw/000011530016.jpg';
 import c from '/bnw/000011530028.jpg';
@@ -77,6 +78,7 @@ export function BNW() {
           }
         </div>
       </div>
+      <ScrollButton />
     </div>
   );
 }

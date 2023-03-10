@@ -7,15 +7,16 @@ export const Heading = styled.h1`
   
 export const Content = styled.div`
    overflowY: scroll;
-   height: 2500px;
+   height: 50px;
 `;
   
 export const Button = styled.div`
-   position: fixed; 
+   display: flex;
+   justify-content: center;
+   position: relative; 
    width: 100%;
-   left: 50%;
-   bottom: 40px;
-   height: 20px;
+   top: 10px;
+   height: 70px;
    font-size: 3rem;
    z-index: 1;
    cursor: pointer;
