@@ -3,6 +3,20 @@ import { Index } from './index';
 import React, { useEffect, useState } from 'react';
 
 import ScrollButton from "../components/ScrollButton";
+import ra from '/roadtrip23/ra.jpg';
+import rb from '/roadtrip23/rb.jpg';
+import rc from '/roadtrip23/rc.jpg';
+import rd from '/roadtrip23/rd.jpg';
+import re from '/roadtrip23/re.jpg';
+import rf from '/roadtrip23/rf.jpg';
+import rg from '/roadtrip23/rg.jpg';
+import rh from '/roadtrip23/rh.jpg';
+import ri from '/roadtrip23/ri.jpg';
+import rj from '/roadtrip23/rj.jpg';
+import rk from '/roadtrip23/rk.jpg';
+import rl from '/roadtrip23/rl.jpg';
+import rm from '/roadtrip23/rm.jpg';
+import rn from '/roadtrip23/rn.jpg';
 import a from '/color/000010810006.jpg';
 import b from '/color/000010810012.jpg';
 import c from '/color/000010810017.jpg';
@@ -30,7 +44,7 @@ import y from '/color/stop_snowy_1.jpg';
 import z from '/color/armstrong_sun_1.jpg';
 
 export function Color() {
-  const imgs = [z, q, d, e, g, p, h, x, i, j, k, f, b, l, m, n, a, o, c, s, t, u, v, w];
+  const imgs = [ra, rb, rc, rd, re, rf, rg, rh, ri, rj, rk, rl, rm, rn, z, q, d, e, g, p, h, x, i, j, k, f, b, l, m, n, a, o, c, s, t, u, v, w];
 
   useEffect(() => {
     document.title = 'szean: color';
