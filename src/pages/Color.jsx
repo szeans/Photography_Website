@@ -3,6 +3,9 @@ import { Index } from './index';
 import React, { useEffect, useState } from 'react';
 
 import ScrollButton from "../components/ScrollButton";
+import w1 from '/westcoast23/1.jpg';
+import w2 from '/westcoast23/2.jpg';
+import w3 from '/westcoast23/3.jpg';
 import ra from '/roadtrip23/ra.jpg';
 import rb from '/roadtrip23/rb.jpg';
 import rc from '/roadtrip23/rc.jpg';
@@ -44,7 +47,7 @@ import y from '/color/stop_snowy_1.jpg';
 import z from '/color/armstrong_sun_1.jpg';
 
 export function Color() {
-  const imgs = [ra, rb, rc, rd, re, rf, rg, rh, ri, rj, rk, rl, rm, rn, z, q, d, e, g, p, h, x, i, j, k, f, b, l, m, n, a, o, c, s, t, u, v, w];
+  const imgs = [w1, w2, w3, ra, rb, rc, rd, re, rf, rg, rh, ri, rj, rk, rl, rm, rn, z, q, d, e, g, p, h, x, i, j, k, f, b, l, m, n, a, o, c, s, t, u, v, w];
 
   useEffect(() => {
     document.title = 'szean: color';
