@@ -3,6 +3,11 @@ import { Index } from './index';
 import React, { useEffect, useState } from 'react';
 
 import ScrollButton from "../components/ScrollButton";
+import n1 from '/nov17film/n1.jpg';
+import n2 from '/nov17film/n2.jpg';
+import n3 from '/nov17film/n3.jpg';
+import n4 from '/nov17film/n4.jpg';
+import n5 from '/nov17film/n5.jpg';
 import w1 from '/westcoast23/1.jpg';
 import w2 from '/westcoast23/2.jpg';
 import w3 from '/westcoast23/3.jpg';
@@ -47,7 +52,7 @@ import y from '/color/stop_snowy_1.jpg';
 import z from '/color/armstrong_sun_1.jpg';
 
 export function Color() {
-  const imgs = [w1, w2, w3, ra, rb, rc, rd, re, rf, rg, rh, ri, rj, rk, rl, rm, rn, z, q, d, e, g, p, h, x, i, j, k, f, b, l, m, n, a, o, c, s, t, u, v, w];
+  const imgs = [n1, n2, n3, n4, n5, w1, w2, w3, ra, rb, rc, rd, re, rf, rg, rh, ri, rj, rk, rl, rm, rn, y, z, q, d, e, g, p, h, x, i, j, k, f, b, l, m, n, a, o, c, s, t, u, v, w];
 
   useEffect(() => {
     document.title = 'szean: color';
