@@ -3,6 +3,14 @@ import { Index } from './index';
 import React, { useEffect, useState } from 'react';
 
 import ScrollButton from "../components/ScrollButton";
+
+import tr1 from '/turkeyrun/tr1.jpg';
+import tr2 from '/turkeyrun/tr2.jpg';
+import tr3 from '/turkeyrun/tr3.jpg';
+import tr4 from '/turkeyrun/tr4.jpg';
+import benguitar from '/color/benguitar.jpg';
+import alichi1 from '/color/000034670004.jpg';
+import alichi2 from '/color/000034670014.jpg';
 import n1 from '/nov17film/n1.jpg';
 import n2 from '/nov17film/n2.jpg';
 import n3 from '/nov17film/n3.jpg';
@@ -25,20 +33,15 @@ import rk from '/roadtrip23/rk.jpg';
 import rl from '/roadtrip23/rl.jpg';
 import rm from '/roadtrip23/rm.jpg';
 import rn from '/roadtrip23/rn.jpg';
-import a from '/color/000010810006.jpg';
 import b from '/color/000010810012.jpg';
 import c from '/color/000010810017.jpg';
 import d from '/color/plants_greenhouse_1.jpg';
 import e from '/color/000023650020.jpg';
 import f from '/color/000023650023.jpg';
-import g from '/color/000023650034.jpg';
-import h from '/color/000023660004.jpg';
 import i from '/color/000023660007.jpg';
 import j from '/color/000023660030.jpg';
-import k from '/color/000046820026.jpg';
 import l from '/color/000046830017.jpg';
 import m from '/color/000073600004.jpg';
-import n from '/color/0004.jpg';
 import o from '/color/000496160010.jpg';
 import p from '/color/000497650015.jpg';
 import q from '/color/000497650027.jpg';
@@ -52,7 +55,7 @@ import y from '/color/stop_snowy_1.jpg';
 import z from '/color/armstrong_sun_1.jpg';
 
 export function Color() {
-  const imgs = [n1, n2, n3, n4, n5, w1, w2, w3, ra, rb, rc, rd, re, rf, rg, rh, ri, rj, rk, rl, rm, rn, y, z, q, d, e, g, p, h, x, i, j, k, f, b, l, m, n, a, o, c, s, t, u, v, w];
+  const imgs = [tr2, tr4, tr3, tr1, benguitar, alichi1, alichi2, n1, n2, n3, n4, n5, w1, w2, w3, ra, rb, rc, rd, re, rf, rg, rh, ri, rj, rk, rl, rm, rn, y, z, q, d, e, p, x, i, j, f, b, l, m, o, c, s, t, u, v, w];
 
   useEffect(() => {
     document.title = 'szean: color';
