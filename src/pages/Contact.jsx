@@ -5,7 +5,7 @@ import React, { useEffect } from 'react';
 
 export function Contact() {
   useEffect(() => {
-    document.title = 'szean: contact';
+    document.title = 'szean choi: contact';
   }, []);
 
   return (

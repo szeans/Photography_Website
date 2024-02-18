@@ -58,7 +58,7 @@ export function Color() {
   const imgs = [tr2, tr4, tr3, tr1, benguitar, alichi1, alichi2, n1, n2, n3, n4, n5, w1, w2, w3, ra, rb, rc, rd, re, rf, rg, rh, ri, rj, rk, rl, rm, rn, y, z, q, d, e, p, x, i, j, f, b, l, m, o, c, s, t, u, v, w];
 
   useEffect(() => {
-    document.title = 'szean: color';
+    document.title = 'szean choi';
 
     var gallery = document.querySelector('.gallery');
 

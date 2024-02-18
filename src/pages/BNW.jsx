@@ -34,7 +34,7 @@ export function BNW() {
   const imgs = [tr, vb, nc, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x];
 
   useEffect(() => {
-    document.title = 'szean: bnw';
+    document.title = 'szean choi: black & white';
 
     var gallery = document.querySelector('.gallery');
 
