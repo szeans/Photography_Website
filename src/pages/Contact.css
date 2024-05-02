@@ -1,8 +1,75 @@
-p {
-  margin: 5px;
+.contact-container {
+  display: grid;
+  grid-template-columns: .8fr 4fr;
+  /* Two columns: left for Index, main-content for profile and text */
+  gap: 20px;
+  /* Optional: adds space between columns */
 }
 
-#body a {
+.main-content {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  /* Profile pic (auto) and text (1fr) */
+  align-items: start;
+  /* Align profile picture with text vertically */
+  gap: 20px;
+  /* Adds space between the profile picture and text */
+  margin-top: 17px;
+}
+
+.profile-container {
+  text-align: left;
+  /* Ensure profile pic sticks to the left side */
+}
+
+.profile {
+  height: 250px;
+  margin-top: 23px;
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .profile {
+    height: 170px;; /* Sets the height to 150px */
+    transition: height 0.2s ease-in-out; /* Smooth transition for height */
+    padding-left:30px;
+  }
+}
+
+.text-container {
+  padding-left: 20px;
+  width:350px;
+  /* Adds padding on the left side of text */
+  margin-top: 23px;
+}
+
+p {
+  margin: 0;
+  padding: 5px;
+  /* Consistent padding for paragraphs */
+}
+
+a {
   display: inline;
-  color:rgb(125, 125, 125);
+}
+
+/* Media query for screen sizes below 900px */
+@media (max-width: 800px) {
+
+  .contact-container {
+    display: block; /* Layout stacks vertically */
+  }
+
+  .main-content {
+    display: block; /* Profile and text stack vertically */
+  }
+
+  .profile-container {
+    text-align: center; /* Center profile pic in smaller screens */
+  }
+
+  .text-container {
+    padding-left: 50px; /* Reset padding in smaller screens */
+    width:auto;
+    padding-right:30px;
+  }
 }

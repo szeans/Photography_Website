@@ -1,11 +1,11 @@
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 799px) {
   #body {
     padding-left: 220px;
     padding-top: 40px;
   }
 
   .gallery {
-    padding-right: 40px;
+    padding-right: 60px;
     display: grid;
     grid-gap: 15px;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -15,20 +15,15 @@
   .gallery img {
     max-width: 100%;
   }
-
-  #profile {
-    width: 280px;
-    float: left;
-    padding-right: 30px;
-  }
 }
 
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 800px) {
 
   .gallery img {
     display: flex;
     justify-content: center;
-    max-width: 100%;
+    margin-left:5.5%;
+    max-width: 90%;
     padding-bottom: 20px;
   }
 

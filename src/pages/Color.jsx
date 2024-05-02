@@ -1,6 +1,6 @@
 import './Color.css';
 import { Index } from './index';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 
 import ScrollButton from "../components/ScrollButton";
 
@@ -38,7 +38,6 @@ import c from '/color/000010810017.jpg';
 import d from '/color/plants_greenhouse_1.jpg';
 import e from '/color/000023650020.jpg';
 import f from '/color/000023650023.jpg';
-import i from '/color/000023660007.jpg';
 import j from '/color/000023660030.jpg';
 import l from '/color/000046830017.jpg';
 import m from '/color/000073600004.jpg';
@@ -50,12 +49,12 @@ import t from '/color/001249710021.jpg';
 import u from '/color/0014.jpg';
 import v from '/color/0024.jpg';
 import w from '/color/0031.jpg';
+import monk from '/color/monky.jpg'
 import x from '/color/000014830013.jpg';
-import y from '/color/stop_snowy_1.jpg';
 import z from '/color/armstrong_sun_1.jpg';
 
 export function Color() {
-  const imgs = [tr2, tr4, tr3, tr1, benguitar, alichi1, alichi2, n1, n2, n3, n4, n5, w1, w2, w3, ra, rb, rc, rd, re, rf, rg, rh, ri, rj, rk, rl, rm, rn, y, z, q, d, e, p, x, i, j, f, b, l, m, o, c, s, t, u, v, w];
+  const imgs = [tr2, tr4, tr3, tr1, benguitar, alichi1, alichi2, n1, n2, n3, n4, n5, monk, w1, w2, w3, ra, rb, rc, rd, re, rf, rg, rh, ri, rj, rk, rl, rm, rn, z, q, d, e, p, x, j, f, b, l, m, o, c, s, t, u, v, w];
 
   useEffect(() => {
     document.title = 'szean choi';
