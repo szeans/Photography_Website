@@ -26,12 +26,14 @@ import u from '/bnw/000011530002.jpg';
 import v from '/bnw/000011530011.jpg';
 import w from '/bnw/000011530015.jpg';
 import x from '/bnw/000011530021.jpg';
+import mt from '/bnw/middletree.jpg';
+import al from '/bnw/alley.jpg';
 import tr from '/bnw/trash.jpg';
 import nc from '/bnw/night_campus.jpg';
 import vb from '/bnw/vons_books.jpg';
 
 export function BNW() {
-  const imgs = [tr, vb, nc, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x];
+  const imgs = [tr, mt, vb, nc, a, b, c, d, e, al, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x];
 
   useEffect(() => {
     document.title = 'szean choi: black & white';

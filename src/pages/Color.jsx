@@ -5,7 +5,6 @@ import React, { useEffect } from 'react';
 import ScrollButton from "../components/ScrollButton";
 
 import tr1 from '/turkeyrun/tr1.jpg';
-import tr2 from '/turkeyrun/tr2.jpg';
 import tr3 from '/turkeyrun/tr3.jpg';
 import tr4 from '/turkeyrun/tr4.jpg';
 import benguitar from '/color/benguitar.jpg';
@@ -54,7 +53,7 @@ import x from '/color/000014830013.jpg';
 import z from '/color/armstrong_sun_1.jpg';
 
 export function Color() {
-  const imgs = [tr2, tr4, tr3, tr1, benguitar, alichi1, alichi2, n1, n2, n3, n4, n5, monk, w1, w2, w3, ra, rb, rc, rd, re, rf, rg, rh, ri, rj, rk, rl, rm, rn, z, q, d, e, p, x, j, f, b, l, m, o, c, s, t, u, v, w];
+  const imgs = [tr4, tr3, tr1, benguitar, alichi1, alichi2, n1, n2, n3, n4, n5, monk, w1, w2, w3, ra, rb, rc, rd, re, rf, rg, rh, ri, rj, rk, rl, rm, rn, z, q, d, e, p, x, j, f, b, l, m, o, c, s, t, u, v, w];
 
   useEffect(() => {
     document.title = 'szean choi';
