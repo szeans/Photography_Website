@@ -4,6 +4,15 @@ import React, { useEffect } from 'react';
 
 import ScrollButton from "../components/ScrollButton";
 
+import ft71 from '/fromthe7/1.jpg';
+import ft72 from '/fromthe7/2.jpg';
+import ft73 from '/fromthe7/3.jpg';
+import ft75 from '/fromthe7/5.jpg';
+import ft76 from '/fromthe7/6.jpg';
+import ft77 from '/fromthe7/7.jpg';
+import ft78 from '/fromthe7/8.jpg';
+import ft79 from '/fromthe7/9.jpg';
+import ft710 from '/fromthe7/10.jpg';
 import tr1 from '/turkeyrun/tr1.jpg';
 import tr3 from '/turkeyrun/tr3.jpg';
 import tr4 from '/turkeyrun/tr4.jpg';
@@ -52,8 +61,17 @@ import monk from '/color/monky.jpg'
 import x from '/color/000014830013.jpg';
 import z from '/color/armstrong_sun_1.jpg';
 
+
 export function Color() {
-  const imgs = [tr4, tr3, tr1, benguitar, alichi1, alichi2, n1, n2, n3, n4, n5, monk, w1, w2, w3, ra, rb, rc, rd, re, rf, rg, rh, ri, rj, rk, rl, rm, rn, z, q, d, e, p, x, j, f, b, l, m, o, c, s, t, u, v, w];
+  const imgs = [ft72, ft73, ft75, ft71, ft76, ft77, ft78, ft79, ft710,
+    tr4, tr3, tr1, 
+    benguitar, 
+    alichi1, alichi2, 
+    n1, n2, n3, n4, n5, 
+    monk, 
+    w1, w2, w3, 
+    ra, rb, rc, rd, re, rf, rg, rh, ri, rj, rk, rl, rm, rn, 
+    z, q, d, e, p, x, j, f, b, l, m, o, c, s, t, u, v, w];
 
   useEffect(() => {
     document.title = 'szean choi';
