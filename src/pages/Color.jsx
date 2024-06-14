@@ -39,8 +39,6 @@ import ri from '/roadtrip23/ri.jpg';
 import rj from '/roadtrip23/rj.jpg';
 import rk from '/roadtrip23/rk.jpg';
 import rl from '/roadtrip23/rl.jpg';
-import rm from '/roadtrip23/rm.jpg';
-import rn from '/roadtrip23/rn.jpg';
 import b from '/color/000010810012.jpg';
 import c from '/color/000010810017.jpg';
 import d from '/color/plants_greenhouse_1.jpg';
@@ -70,8 +68,8 @@ export function Color() {
     n1, n2, n3, n4, n5, 
     monk, 
     w1, w2, w3, 
-    ra, rb, rc, rd, re, rf, rg, rh, ri, rj, rk, rl, rm, rn, 
-    z, q, d, e, p, x, j, f, b, l, m, o, c, s, t, u, v, w];
+    ra, rb, rc, rd, re, rf, rg, rh, ri, rj, rk, rl, 
+    z, q, d, t, e, p, v, w, x, j, f, b, l, m, o, c, s, u];
 
   useEffect(() => {
     document.title = 'szean choi';
