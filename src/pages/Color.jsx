@@ -7,6 +7,7 @@ import ScrollButton from "../components/ScrollButton";
 import ft71 from '/fromthe7/1.jpg';
 import ft72 from '/fromthe7/2.jpg';
 import ft73 from '/fromthe7/3.jpg';
+import ft74 from '/fromthe7/4.jpg';
 import ft75 from '/fromthe7/5.jpg';
 import ft76 from '/fromthe7/6.jpg';
 import ft77 from '/fromthe7/7.jpg';
@@ -61,7 +62,7 @@ import z from '/color/armstrong_sun_1.jpg';
 
 
 export function Color() {
-  const imgs = [ft72, ft73, ft75, ft71, ft76, ft77, ft78, ft79, ft710,
+  const imgs = [ft72, ft73, ft74, ft75, ft71, ft76, ft77, ft78, ft79, ft710,
     tr4, tr3, tr1, 
     benguitar, 
     alichi1, alichi2, 
