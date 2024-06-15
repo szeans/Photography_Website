@@ -2,6 +2,13 @@ import './BNW.css';
 import { Index } from './index';
 import React, { useEffect } from 'react';
 import ScrollButton from "../components/ScrollButton";
+
+import a64511 from '/6451bw/1.jpg';
+import a64512 from '/6451bw/2.jpg';
+import a64513 from '/6451bw/3.jpg';
+import a64514 from '/6451bw/4.jpg';
+import a64515 from '/6451bw/5.jpg';
+import a64516 from '/6451bw/6.jpg';
 import a from '/bnw/000011530004.jpg';
 import b from '/bnw/000011530016.jpg';
 import c from '/bnw/000011530028.jpg';
@@ -33,7 +40,8 @@ import nc from '/bnw/night_campus.jpg';
 import vb from '/bnw/vons_books.jpg';
 
 export function BNW() {
-  const imgs = [tr, mt, vb, nc, a, b, c, d, e, al, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x];
+  const imgs = [a64511, a64512, a64513, a64514, a64515, a64516,
+    tr, mt, vb, nc, a, b, c, d, e, al, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x];
 
   useEffect(() => {
     document.title = 'szean choi: black & white';
