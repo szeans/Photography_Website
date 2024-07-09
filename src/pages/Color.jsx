@@ -59,17 +59,27 @@ import w from '/color/0031.jpg';
 import monk from '/color/monky.jpg'
 import x from '/color/000014830013.jpg';
 import z from '/color/armstrong_sun_1.jpg';
+import dc2 from '/dc/2.jpg';
+import dc3 from '/dc/3.jpg';
+import dc4 from '/dc/4.jpg';
+import dc5 from '/dc/5.jpg';
+import dc6 from '/dc/6.jpg';
+import dc7 from '/dc/7.jpg';
+import dc8 from '/dc/8.jpg';
+import dc9 from '/dc/9.jpg';
+import dc1 from '/dc/1.jpg';
 
 
 export function Color() {
-  const imgs = [ft72, ft73, ft74, ft75, ft71, ft76, ft77, ft78, ft79, ft710,
-    tr4, tr3, tr1, 
-    benguitar, 
-    alichi1, alichi2, 
-    n1, n2, n3, n4, n5, 
-    monk, 
-    w1, w2, w3, 
-    ra, rb, rc, rd, re, rf, rg, rh, ri, rj, rk, rl, 
+  const imgs = [dc1, dc2, dc3, dc4, dc5, dc6, dc7, dc8, dc9,
+    ft72, ft73, ft74, ft75, ft71, ft76, ft77, ft78, ft79, ft710,
+    tr4, tr3, tr1,
+    benguitar,
+    alichi1, alichi2,
+    n1, n2, n3, n4, n5,
+    monk,
+    w1, w2, w3,
+    ra, rb, rc, rd, re, rf, rg, rh, ri, rj, rk, rl,
     z, q, d, t, e, p, v, w, x, j, f, b, l, m, o, c, s, u];
 
   useEffect(() => {

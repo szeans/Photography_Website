@@ -38,9 +38,10 @@ import al from '/bnw/alley.jpg';
 import tr from '/bnw/trash.jpg';
 import nc from '/bnw/night_campus.jpg';
 import vb from '/bnw/vons_books.jpg';
+import dc1 from '/dc/1bw.jpg';
 
 export function BNW() {
-  const imgs = [a64511, a64512, a64513, a64514, a64515, a64516,
+  const imgs = [dc1, a64511, a64512, a64513, a64514, a64515, a64516,
     tr, mt, vb, nc, a, b, c, d, e, al, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x];
 
   useEffect(() => {
