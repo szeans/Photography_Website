@@ -23,7 +23,6 @@ import k from '/bnw/000023670033.jpg';
 import l from '/bnw/000023670039.jpg';
 import m from '/bnw/000034690001.jpg';
 import n from '/bnw/000034690019.jpg';
-import o from '/bnw/000034700001.jpg';
 import p from '/bnw/000034700008.jpg';
 import q from '/bnw/000034700024.jpg';
 import r from '/bnw/000034700032.jpg';
@@ -39,10 +38,11 @@ import tr from '/bnw/trash.jpg';
 import nc from '/bnw/night_campus.jpg';
 import vb from '/bnw/vons_books.jpg';
 import dc1 from '/dc/1bw.jpg';
+import dc2 from '/dc/2bw.jpg'
 
 export function BNW() {
-  const imgs = [dc1, a64511, a64512, a64513, a64514, a64515, a64516,
-    tr, mt, vb, nc, a, b, c, d, e, al, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x];
+  const imgs = [dc1, dc2, a64511, a64512, a64513, a64514, a64515, a64516,
+    tr, mt, vb, nc, a, b, c, d, e, al, f, g, h, i, j, k, l, m, n, p, q, r, s, t, u, v, w, x];
 
   useEffect(() => {
     document.title = 'szean choi: black & white';
