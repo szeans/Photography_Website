@@ -39,9 +39,10 @@ import nc from '/bnw/night_campus.jpg';
 import vb from '/bnw/vons_books.jpg';
 import dc1 from '/dc/1bw.jpg';
 import dc2 from '/dc/2bw.jpg'
+import dc3 from '/dc/3bw.jpg'
 
 export function BNW() {
-  const imgs = [dc1, dc2, a64511, a64512, a64513, a64514, a64515, a64516,
+  const imgs = [dc3, dc1, dc2, a64511, a64512, a64513, a64514, a64515, a64516,
     tr, mt, vb, nc, a, b, c, d, e, al, f, g, h, i, j, k, l, m, n, p, q, r, s, t, u, v, w, x];
 
   useEffect(() => {

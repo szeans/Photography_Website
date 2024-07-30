@@ -57,10 +57,20 @@ import dc6 from '/dc/6.jpg';
 import dc8 from '/dc/8.jpg';
 import dc9 from '/dc/9.jpg';
 import dc1 from '/dc/1.jpg';
+import dc12 from '/dc/12.jpg';
+import dc11 from '/dc/11.jpg';
+import dc13 from '/dc/13.jpg';
+import dc14 from '/dc/14.jpg';
+import dc15 from '/dc/15.jpg';
+import dc16 from '/dc/16.jpg';
+import dc17 from '/dc/17.jpg';
+import dc18 from '/dc/18.jpg';
+import dc19 from '/dc/19.jpg';
+import dc20 from '/dc/20.jpg';
 
 
 export function Color() {
-  const imgs = [dc1, dc2, dc3, dc4, dc5, dc6, dc8, dc9,
+  const imgs = [dc17, dc11, dc12, dc15, dc14, dc13, dc1, dc16, dc2, dc3, dc18, dc4, dc5, dc19, dc20, dc6, dc8, dc9,
     ft72, ft73, ft74, ft75, ft77, ft79,
     tr4, tr3, tr1,
     benguitar,
