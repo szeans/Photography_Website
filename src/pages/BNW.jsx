@@ -40,6 +40,7 @@ import vb from '/bnw/vons_books.jpg';
 import dc1 from '/dc/1bw.jpg';
 import dc2 from '/dc/2bw.jpg';
 import dc3 from '/dc/3bw.jpg';
+import or0 from '/oregon/bnw/0.jpg';
 import or1 from '/oregon/bnw/1.jpg';
 import or2 from '/oregon/bnw/2.jpg';
 import or3 from '/oregon/bnw/3.jpg';
@@ -47,7 +48,7 @@ import or4 from '/oregon/bnw/4.jpg';
 
 export function BNW() {
   const imgs = [
-    or1, or2, or3, or4,
+    or0, or1, or2, or3, or4,
     dc3, dc1, dc2, 
     a64511, a64512, a64513, a64514, a64515, a64516,
     tr, mt, vb, nc, a, b, c, d, e, al, f, g, h, i, j, k, l, m, n, p, q, r, s, t, u, v, w, x];
