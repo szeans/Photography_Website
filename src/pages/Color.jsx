@@ -67,10 +67,14 @@ import dc17 from '/dc/17.jpg';
 import dc18 from '/dc/18.jpg';
 import dc19 from '/dc/19.jpg';
 import dc20 from '/dc/20.jpg';
+import or1 from '/oregon/col/1.jpg';
+import or2 from '/oregon/col/2.jpg';
 
 
 export function Color() {
-  const imgs = [dc17, dc11, dc12, dc15, dc14, dc13, dc1, dc16, dc2, dc3, dc18, dc4, dc5, dc19, dc20, dc6, dc8, dc9,
+  const imgs = [
+    or1, or2, 
+    dc17, dc11, dc12, dc15, dc14, dc13, dc1, dc16, dc2, dc3, dc18, dc4, dc5, dc19, dc20, dc6, dc8, dc9,
     ft72, ft73, ft74, ft75, ft77, ft79,
     tr4, tr3, tr1,
     benguitar,
@@ -79,7 +83,8 @@ export function Color() {
     monk,
     w1, w2, w3,
     ra, rb, re, rd, rf, rg, rh, ri, rj, rk, rl,
-    z, q, d, t, e, p, v, w, x, j, f, b, m, o, c, u];
+    z, q, d, t, e, p, v, w, x, j, f, b, m, o, c, u
+  ];
 
   useEffect(() => {
     document.title = 'szean choi';
